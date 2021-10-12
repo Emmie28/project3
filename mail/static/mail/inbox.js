@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     reply = false;
     compose_email();
   });
+  // Call the send mail function when form is submitted.
   document.querySelector('form').onsubmit = send_mail;
   
   // By default, load the inbox
